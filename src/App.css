@@ -1,0 +1,40 @@
+body {
+    background-color: #DFCFBE;
+}
+
+#preview {
+    background-color: #edf7f6;
+    padding: 10px;
+    border: 50px solid black;
+    overflow: scroll;
+    border-radius: 20px;
+    width: 100%;
+    height: 45em;
+}
+
+.layer {
+    border: 5px solid #b6b6b6;
+    border-radius: 25px;
+    width: 80%;
+    height: inherit;
+    box-shadow: rgba(0, 0, 0, 0.5) 0.95rem 0.95rem 1.6rem;
+    margin: 20px auto;
+}
+
+#editor {
+    background-color: #edf7f6;
+    border-radius: 5px;
+    padding: 10px;
+    border: 3px solid #AE9EEA;
+    margin: 20px auto;
+}
+
+#editor:focus {
+    outline: 0;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 12px;
+    }
+}
